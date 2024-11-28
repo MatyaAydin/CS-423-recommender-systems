@@ -203,8 +203,8 @@ ds = [16, 32, 64, 128, 256, 512]
 vars = 1e-4
 decays = [0, 1e-7, 1e-6, 1e-5]
 
-losses = np.loadtxt('./saved_arrays/losses_final_inshallah.txt')
-means = np.loadtxt('./saved_arrays/means_final_inshallah.txt')
+losses = np.loadtxt('./saved_arrays/losses_final.txt')
+means = np.loadtxt('./saved_arrays/means_final.txt')
 
 map_losses = losses.reshape((len(ds), len(decays)))
 map_means = means.reshape((len(ds), len(decays)))
