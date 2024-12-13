@@ -5,6 +5,14 @@ Fredrik Nguyen 39639
 Matya Aydin 388895
 Rémi Gardette 368436
 
+### Dependencies
+
+To get all packages, please execute the following command:
+
+```bash
+pip install -r pip_requirements.txt
+```
+
 ### Repo structure
 
 * `matrix_torch.ipynb`: method used for the final submission. Matrix factorization in PyTorch.
