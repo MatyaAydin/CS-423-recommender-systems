@@ -16,7 +16,7 @@ pip install -r pip_requirements.txt
 ### Repo structure
 
 * `matrix_torch.ipynb`: method used for the final submission. Matrix factorization in PyTorch.
-* `grid.py`: contains grid searches and other plots used to find the optimal hyperparameters. It can be run using `python3 grid.py`.
+* `search.py`: contains grid searches and other plots used to find the optimal hyperparameters. It can be run using `python3 grid.py`.
 * The folder saved_arrays contains some losses and means that were generated during grid searches for reproducibility.
 * The folder other contains the other methods described in the appendix:
     * `matrix_factorization.ipynb`: matrix factorization from scratch.
